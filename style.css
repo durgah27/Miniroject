@@ -1,0 +1,64 @@
+﻿body {
+ 
+font-family: Arial, sans-serif; margin: 0;
+padding: 0;
+background-color: #f5f5dc; /* Beige background color */
+background-image:url("https://img.freepik.com/free-photo/abstract-blur-shopping-mall_74190- 4402.jpg?size=626&ext=jpg&ga=GA1.1.195073450.1715003370&semt=ais");
+background-size:cover; background-repeat:no-repeat;
+}
+
+h1, h2 {
+color: #d2691e; /* Chocolate color for headings */
+}
+
+p {
+color: #333333;
+line-height: 1.5;
+}
+
+/* Navigation */ nav {
+background-color: #d2691e; /* Chocolate color */ padding: 10px;
+}
+
+nav ul {
+list-style: none; padding: 0;
+margin: 0;
+}
+
+nav ul li { display: inline;
+margin-right: 15px;
+}
+
+nav ul li a { color: white;
+
+
+
+12
+ 
+text-decoration: none;
+}
+
+nav ul li a:hover {
+text-decoration: underline;
+}
+
+/* Home Page */
+#home, #menu, #about, #contact, #blog, #gallery { padding: 20px;
+text-align: center;
+}
+
+.center-image {
+max-width: 3000px; height: 435px; display: block; margin: 20px auto;
+}
+
+
+
+/* Footer */
+.footer {
+background-color: #d2691e; /* Chocolate color */ color: white;
+text-align: center; padding: 10px; width:100%;
+
+position:absolute; bottom:0;
+left:0;
+z-index: 10;
+}
